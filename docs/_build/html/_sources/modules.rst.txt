@@ -1,12 +1,8 @@
-infor
+Архів
 =====
 
 .. toctree::
-    :maxdepth: 4
+    :maxdepth: 2
 
-    cards
     infor
-
-
-
-
+    cards

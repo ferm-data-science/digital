@@ -34,7 +34,7 @@ Welcome to tets's documentation!
             | FERM digital
             | автоматизований збір та структурування даних з інтернету
 
-            .. button-ref:: refname2
+            .. button-ref:: refname1
                 :color: primary
                 :ref-type: ref
                 :class: underline
@@ -63,10 +63,10 @@ Welcome to tets's documentation!
         Дані АЗС, перелік ОЕЗ, коди митниць
 
     .. grid-item-card::  Цінові парсери
-        :link: https://example.com
+        :link: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/EpaQF3-4WLZDv04Lt-NmJjABePp0yrYRrILJTdSyrmnEyA?e=t2TQQM
         :padding: 1
 
-        * Активні
+        Дані активних парсерів
 
     .. grid-item-card::  Сайти та контакти
         :link: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Ek5RJBNYM6VFmPX5Khoii3sBW-FmTNRYfDtiJJ1SUDYG7A?e=adVAMD
@@ -87,10 +87,10 @@ Welcome to tets's documentation!
         Дані публічних та комерційних тендерів
 
     .. grid-item-card::  Трейдери
-        :link: https://example.com
+        :link: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/EmXQ0mYJnsFFrOe06Ace21QBxemK1QFRD-0gLBx-9pdwew?e=1StZzk
         :padding: 1
 
-        * Кросс-Докинг
+        Дані про трейдерів
 
     .. grid-item-card::  Talent
         :link: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Ek-gMwbyjNtOuy6Ifyqy_rcBrurTxtLOTR-qVZ-E3YhvQA?e=VVcIEl
@@ -99,21 +99,13 @@ Welcome to tets's documentation!
         Дані про вакансії та резюме, зведена аналітика
 
 
-    .. grid-item-card::  Пошук контактів
-        :link: https://example.com
-        :padding: 1
-
-        * Учасники будівельних тендерів
-        * Flagma, OLX, Prom, RST, ...
-
+.. _refname1:
 
 =====================================
 Мета створення інформаційного ресурсу
 =====================================
 
 Відображення актуальних та архівних даних, які були створені на підставі первісних вимог замовників щодо автоматизованого збору інформації - парсингу.
-
-.. _refname1:
 
 ==========================
 Мета використання парсингу
@@ -170,12 +162,11 @@ Welcome to tets's documentation!
 - Збір, розповсюдження інформації, яка є комерційною або державною таємницею.
 
 
-.. _refname2:
-
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 3
+   :caption: Зміст:
 
    modules
+   digital
    tips
    github
