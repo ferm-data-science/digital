@@ -28,6 +28,7 @@ extensions = [
     "sphinxcontrib.jquery",
     "sphinx_datatables",
     "sphinx.ext.githubpages",
+    "sphinx_new_tab_link",
 ]
 
 myst_enable_extensions = ["colon_fence"]
@@ -81,3 +82,5 @@ html_static_path = ['_static']
 html_css_files = [
     'css/custom.css',
 ]
+
+new_tab_link_show_external_link_icon = True
