@@ -164,9 +164,9 @@ Welcome to tets's documentation!
 
 .. toctree::
    :maxdepth: 3
-   :caption: Зміст:
+   :caption: Contents:
 
    modules
-   digital
+   dwh
    tips
    github

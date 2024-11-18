@@ -1,5 +1,5 @@
-Data Warehouse
-==============
+Комерційна пропозиція
+=====================
 
 .. grid:: 3
 
@@ -67,12 +67,6 @@ Data Warehouse
     19,Bernita,Stroman,1973-07-24,1981-09-10 21:58:27
     20,Zula,Greenholt,2019-06-07,2020-07-24 13:13:02
 
-
-.. toctree::
-    :maxdepth: 2
-
-    sub/digital1
-    sub/digital2
 
 ==================
 Indices and tables
