@@ -42,74 +42,325 @@ Welcome to tets's documentation!
                 Почати
 
 
+Дані за напрямком
+-----------------
+
 .. grid:: 3
 
-    .. grid-item-card::  Data Warehouse
-        :link: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Ep37mPTOh6VJuJ_yu07lV3gB5dFo6bxPA5VeuaH0CvDXxA?e=i0MgKS
-        :padding: 1
-
-        Розрахунок вартості володіння сховищем даних
-
-    .. grid-item-card::  Власники техніки
-        :link: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Et1pzy8q0-dKvtzuC_zMYdcBRFj62w_9FUt72zKRZYO9_w?e=BMIGmD
-        :padding: 1
-
-        Джерела інформації та співставлення даних з YouControl
-
-    .. grid-item-card::  Дані для фінансової аналітики
+    .. grid-item-card:: HR
         :link: https://example.com
-        :padding: 1
-
-        Дані АЗС, перелік ОЕЗ, коди митниць
-
-    .. grid-item-card::  Цінові парсери
-        :link: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/EpaQF3-4WLZDv04Lt-NmJjABePp0yrYRrILJTdSyrmnEyA?e=t2TQQM
-        :padding: 1
-
-        Дані активних парсерів
-
-    .. grid-item-card::  Сайти та контакти
-        :link: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Ek5RJBNYM6VFmPX5Khoii3sBW-FmTNRYfDtiJJ1SUDYG7A?e=adVAMD
-        :padding: 1
-        
-        Перелік разових замовлень та отримання контактів
-
-    .. grid-item-card::  Маркетингова аналітика
-        :link: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Ena45JfsKaVHoPbCvrtKetEBRxEPu0Gdm0h1E9oyEenvHA?e=TRHmlh
-        :padding: 1
-
-        Дані Ahrefs, Google Analitics
-    
-    .. grid-item-card::  Тендерні майданчики
-        :link: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Et51vFbhr5ZEr0M5Hf3GLO4BioaFy3CrWK79KBMBJaGLjw?e=z72ekm
-        :padding: 1
-
-        Дані публічних та комерційних тендерів
-
-    .. grid-item-card::  Трейдери
-        :link: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/EmXQ0mYJnsFFrOe06Ace21QBxemK1QFRD-0gLBx-9pdwew?e=1StZzk
-        :padding: 1
-
-        Дані про трейдерів
-
-    .. grid-item-card::  Talent
-        :link: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Ek-gMwbyjNtOuy6Ifyqy_rcBrurTxtLOTR-qVZ-E3YhvQA?e=VVcIEl
         :padding: 1
 
         Дані про вакансії та резюме, зведена аналітика
 
+    .. grid-item-card:: SEO
+        :link: https://example.com
+        :padding: 1
+
+        Дані Ahrefs, Google Analitics, маркетингова аналітика
+
+    .. grid-item-card::  Закупки
+        :link: procurement
+        :link-type: ref
+        :padding: 1
+
+        Цінові парсери, власники техніки
+
+    .. grid-item-card::  Логістика
+        :link: https://example.com
+        :padding: 1
+
+        Контакти перевізників, та послуг авто, агро-техніки
+
+    .. grid-item-card::  Фінанси
+        :link: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Ek5RJBNYM6VFmPX5Khoii3sBW-FmTNRYfDtiJJ1SUDYG7A?e=adVAMD
+        :padding: 1
+        
+        Дані тендерів, АЗС, ОЕЗ, митниця, трейдери
+
+    .. grid-item-card::  Data
+        :link: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Ena45JfsKaVHoPbCvrtKetEBRxEPu0Gdm0h1E9oyEenvHA?e=TRHmlh
+        :padding: 1
+
+        Розрахунок вартості володіння сховищем даних, алгоритми, інше.
+
+
+Список за ключовими словами
+---------------------------
+
+.. dropdown:: **FD, Cписок кодів митниць**
+    :color: light
+
+    .. table::
+        :align: left
+        :widths: auto
+        
+        ===================================  ================
+        Посилання на ресурс                  Інтегровано в BI                                           
+        ===================================  ================
+        `Cписок кодів митниць`_.             так
+        ===================================  ================
+
+.. _Cписок кодів митниць: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/EtguIPzacvlFprmnPLcRQrYBS6mw1_PzvwgQ-LBNvPOlpw?e=JaCTty
+
+
+.. dropdown:: **FD, АЗС, список**
+    :color: light
+
+    .. table::
+        :align: left
+        :widths: auto
+        
+        ===================================  ================
+        Посилання на ресурс                  Інтегровано в BI                                           
+        ===================================  ================
+        `АЗС по областям`_.                  так
+        ===================================  ================
+
+.. _АЗС по областям: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/EoSnn9LL0qBOo6_N-tRZczcBforgr0czidjUXytLA-YPmw?e=hqpYTB
+
+
+.. dropdown:: **FD, Переробка**
+    :color: light
+
+    .. table::
+        :align: left
+        :widths: auto
+        
+        ===================================  ================
+        Посилання на ресурс                  Інтегровано в BI                                           
+        ===================================  ================
+        `tripoli`_.                          так
+        ===================================  ================
+
+.. _tripoli: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/EhxpkX1uvhpFi9mnYGIcGmwBW9tmYjKXsFhcTRCAliGs3g?e=ExQXVF
+
+
+.. dropdown:: **FD, с/г підприємства, список**
+    :color: light
+
+    .. table::
+        :align: left
+        :widths: auto
+        
+        ===================================  ================
+        Посилання на ресурс                  Інтегровано в BI                                           
+        ===================================  ================
+        `ukrmap.pro`_.                       ні
+        ===================================  ================
+
+.. _ukrmap.pro: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/EkZy821RSf1NoJCXY4t9OgwBZI0LPLH2X1AWAsUcMVHapQ?e=ogqoRO
+
+
+.. dropdown:: **FD, Тендерні майданчики**
+    :color: light
+
+    .. table::
+        :align: left
+        :widths: auto
+        
+        ===================================  ================
+        Посилання на ресурс                  Інтегровано в BI                                           
+        ===================================  ================
+        `APS, Salesbook`_.                   так
+        `Smarttener`_.                       так
+        `Учасники будівельних тендерів`_     так
+        ===================================  ================
+
+.. _APS, Salesbook: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Et51vFbhr5ZEr0M5Hf3GLO4BioaFy3CrWK79KBMBJaGLjw?e=FETEFR
+.. _Smarttener: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Et51vFbhr5ZEr0M5Hf3GLO4BioaFy3CrWK79KBMBJaGLjw?e=FETEFR
+.. _Учасники будівельних тендерів: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Et51vFbhr5ZEr0M5Hf3GLO4BioaFy3CrWK79KBMBJaGLjw?e=FETEFR
+
+
+.. dropdown:: **FD, Термінали, список**
+    :color: light
+
+    .. table::
+        :align: left
+        :widths: auto
+        
+        ===================================  ================
+        Посилання на ресурс                  Інтегровано в BI                                           
+        ===================================  ================
+        `Термінали`_.                        ні   
+        ===================================  ================
+
+.. _Термінали: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Eh-8qvrsp0xPtuxMTPXcLf0BkzVZDYY9bbYZwfNom7n_lQ?e=8oXGkU
+
+
+.. dropdown:: **Job агрегатори**
+    :color: light
+
+    .. table::
+        :align: left
+        :widths: auto
+        
+        ===================================  ================
+        Посилання на ресурс                  Інтегровано в BI                                           
+        ===================================  ================
+        `JOB, Аналітика`_.                   ні
+        `JOB, Дані по вакансіям`_.           ні
+        `JOB, Дані по резюме`_.              ні
+        `JOB, сайти`_.                       ні
+        ===================================  ================
+
+.. _JOB, Аналітика: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Ek-gMwbyjNtOuy6Ifyqy_rcBrurTxtLOTR-qVZ-E3YhvQA?e=BtRnXb
+.. _JOB, Дані по вакансіям: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Ek-gMwbyjNtOuy6Ifyqy_rcBrurTxtLOTR-qVZ-E3YhvQA?e=BtRnXb
+.. _JOB, Дані по резюме: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Ek-gMwbyjNtOuy6Ifyqy_rcBrurTxtLOTR-qVZ-E3YhvQA?e=BtRnXb
+.. _JOB, сайти: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Ek-gMwbyjNtOuy6Ifyqy_rcBrurTxtLOTR-qVZ-E3YhvQA?e=BtRnXb
+
+
+.. dropdown:: **PowerPoint, навчальні матеріали**
+    :color: light
+
+    .. table::
+        :align: left
+        :widths: auto
+        
+        ===================================  ================
+        Посилання на ресурс                  Інтегровано в BI                                           
+        ===================================  ================
+        `my.l-a-b-a`_.                       ні   
+        ===================================  ================
+
+.. _my.l-a-b-a: https://agrohuborgua.sharepoint.com/:f:/s/msteams_6324e4/EiaAmfbHOQFKtjb952KMnT4B_8_1xS11iNL_ejJo_QqQBw?e=CCeSxL
+
+
+.. dropdown:: **SEO аналіз ключових слів Ahrefs**
+    :color: light
+
+    .. table::
+        :align: left
+        :widths: auto
+        
+        ===================================  ================
+        Посилання на ресурс                  Інтегровано в BI                                           
+        ===================================  ================
+        `Ahrefs`_.                           ні   
+        ===================================  ================
+
+.. _Ahrefs: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Eop7x8yZ7z9PlKQraKEKa9UBkmpN5a01XI6W9ukAlC34FQ?e=4ZyfS5
+
+
+.. dropdown:: **YouControl дані**
+    :color: light
+
+    .. table::
+        :align: left
+        :widths: auto
+        
+        ===================================  ================
+        Посилання на ресурс                  Інтегровано в BI                                           
+        ===================================  ================
+        `YouControl`_.                       ні
+        ===================================  ================
+
+.. _YouControl: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Et1pzy8q0-dKvtzuC_zMYdcBRFj62w_9FUt72zKRZYO9_w?e=YsfXj2
+
+
+.. dropdown:: **Агроаналітика, вартість**
+    :color: light
+
+    .. table::
+        :align: left
+        :widths: auto
+        
+        ===================================  ================
+        Посилання на ресурс                  Інтегровано в BI                                           
+        ===================================  ================
+        `agrianalytica`_.                    ні
+        ===================================  ================
+
+.. _agrianalytica: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/EtK_6U6U8Q9GpLqxAVih020B_3t6aoeC5SU2Sapjba0Qaw?e=4O4CTh
+
+
+.. dropdown:: **Власники техніки, YM**
+    :color: light
+
+    .. table::
+        :align: left
+        :widths: auto
+        
+        ===================================  ================
+        Посилання на ресурс                  Інтегровано в BI                                           
+        ===================================  ================
+        `Власники техніки, YM`_.             ні   
+        ===================================  ================
+
+.. _Власники техніки, YM: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Et1pzy8q0-dKvtzuC_zMYdcBRFj62w_9FUt72zKRZYO9_w?e=YsfXj2
+
+
+.. dropdown:: **Елеватори, список**
+    :color: light
+
+    .. table::
+        :align: left
+        :widths: auto
+        
+        ===================================  ================
+        Посилання на ресурс                  Інтегровано в BI                                           
+        ===================================  ================
+        `Елеватори, список`_.                ні
+        ===================================  ================
+
+.. _Елеватори, список: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Eh-8qvrsp0xPtuxMTPXcLf0BkzVZDYY9bbYZwfNom7n_lQ?e=8oXGkU
+
+
+.. dropdown:: **Контакти**
+    :color: light
+
+    .. table::
+        :align: left
+        :widths: auto
+        
+        ===================================  ================
+        Посилання на ресурс                  Інтегровано в BI                                           
+        ===================================  ================
+        `Degruz`_.                           ні
+        `Flagma`_.                           ні
+        `OLX`_.                              ні
+        `PROM`_.                             ні
+        `RST`_.                              ні
+        `Telegram`_.                         ні
+        `Вайбер`_.                           ні
+        ===================================  ================
+
+.. _Degruz: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/EsN2Rnz8mf5OocMW8QKlfBYBz6itrJqZZsSFPzbGgYe0Qg?e=moo7hi
+.. _Flagma: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Ek6ABtK1XMVFt7ne8XBdNA8BngQ6LeubEcVSDGW14qE88g?e=BgSU5x
+.. _OLX: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/EsZaZqV5TpNIoghFKITmKdAB_tgEm0CVyxLl6gUlCAStBQ?e=armpiL
+.. _PROM: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/EgbpEOui_8lEozUHsZoSY0QBoViGJNfvdUr7_QpWDopsYg?e=9SH5Ez
+.. _RST: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/EsFgcn2_j7RPr6hK7BbKbY8Bf0LwBShFBVSJDMuFNJej7w?e=iVZ7BE
+.. _Telegram: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/EhWfZw9M9x5PrOQ9xASueCQBGNWM2cF0F6ut3r9NLYen_Q?e=ps4g9i
+.. _Вайбер: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/EsnExEYLn2ZGoUDSawBQfAQBhtRO4fgvx2HStBMsiPd3fQ?e=soKqVQ
+
+
+.. dropdown:: **DWH**
+    :color: light
+
+    .. table::
+        :align: left
+        :widths: auto
+        
+        ===================================  ================
+        Посилання на ресурс                  Інтегровано в BI                                           
+        ===================================  ================
+        `DWH, архітектура, вартість`_.       ні  
+        ===================================  ================
+
+.. _DWH, архітектура, вартість: https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Ep37mPTOh6VJuJ_yu07lV3gB5dFo6bxPA5VeuaH0CvDXxA?e=lGMfK2
+
 
 .. _refname1:
 
-=====================================
+
 Мета створення інформаційного ресурсу
-=====================================
+-------------------------------------
 
 Відображення актуальних та архівних даних, які були створені на підставі первісних вимог замовників щодо автоматизованого збору інформації - парсингу.
 
-==========================
+
 Мета використання парсингу
-==========================
+--------------------------
 
 - Збір інформації з сайтів, асортимент, особливості, сильні та слабкі сторони;
 - Дослідження ринку та динаміки змін (аналіз цін, попиту, пропозицій на певні товари чи послуги);
@@ -117,9 +368,9 @@ Welcome to tets's documentation!
 - Копіювання каталогів сайтів та адаптація під свої потреби;
 - Створення бази потенційних лідів, маркетингова аналітика.
 
-==============================================
+
 Яка інформація доступна за допомогою парсингу?
-==============================================
+----------------------------------------------
 
 - Ціни;
 - Товарні картки з характеристиками;
@@ -127,9 +378,9 @@ Welcome to tets's documentation!
 - Контакти;
 - Аналітика Google Search API;
 
-=============
+
 Як це працює?
-=============
+-------------
 
 - Доступ до сайтів відбувається через протоколи HTTP, HTTPS. 
 - За допомогою Python створюються срипти та обсяг парсингу. Тобто, як потрібно аналізувати певний ресурс — повністю чи вибірково. 
@@ -138,9 +389,9 @@ Welcome to tets's documentation!
 - Зазвичай експорт даних відбувається у два формати: CSV та Excel
 - Інформація передаєтся замовнику з отриманням зворотнього зв'язку. 
 
-=========================
+
 Діяльність у межах закону
-=========================
+-------------------------
 
 `Cтаття 34 «Конституції України»`_ : «Кожен має право вільно збирати, зберігати, використовувати і поширювати інформацію усно, письмово або в інший спосіб — на свій вибір.».  
 Але, в `статті 4 закону «Про доступ до публічної інформації»`_ вказано про «Вільне отримання, поширення та будь-яке інше використання інформації, що була надана або оприлюднена відповідно Закону, крім обмежень, які ним встановлено». Ознайомитись з видами обмежень можна в статті 6 Закону України.  
@@ -152,9 +403,9 @@ Welcome to tets's documentation!
 .. _статті 4 закону «Про доступ до публічної інформації»: https://zakon.rada.gov.ua/laws/show/2939-17#Text
 .. _Законом України «Про авторське право і суміжні права»: https://zakon.rada.gov.ua/laws/show/3792-12#Text
 
-=========================
+
 Що забороняється законом?
-=========================
+-------------------------
 
 - Навмисна шкода сайтам (DDOS);
 - Пошук особистих даних користувачів, які не є у вільному доступі;
@@ -167,6 +418,4 @@ Welcome to tets's documentation!
    :caption: Contents:
 
    modules
-   dwh
-   tips
    github
