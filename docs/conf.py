@@ -23,11 +23,11 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
     'sphinx.ext.napoleon',
+    "sphinx.ext.githubpages",
     'sphinx_design',
     "myst_parser",
     "sphinxcontrib.jquery",
     "sphinx_datatables",
-    "sphinx.ext.githubpages",
     "sphinx_new_tab_link",
 ]
 
