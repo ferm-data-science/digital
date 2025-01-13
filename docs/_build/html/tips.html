@@ -76,13 +76,31 @@
 </nav><nav class="table w-full min-w-full my-6 lg:my-8">
 <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul>
-<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') ? true : false }"><a :class="{ 'expanded' : expanded }" @click="expanded = !expanded" class="reference internal expandable" href="modules.html">Архів<button @click.prevent.stop="expanded = !expanded" type="button"><span class="sr-only"></span><svg fill="currentColor" height="18px" stroke="none" viewbox="0 0 24 24" width="18px" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></button></a><ul x-show="expanded">
-<li class="toctree-l2" x-data="{ expanded: $el.classList.contains('current') ? true : false }"><a :class="{ 'expanded' : expanded }" @click="expanded = !expanded" class="reference internal expandable" href="price.html">Закупки<button @click.prevent.stop="expanded = !expanded" type="button"><span class="sr-only"></span><svg fill="currentColor" height="18px" stroke="none" viewbox="0 0 24 24" width="18px" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></button></a><ul x-show="expanded">
-<li class="toctree-l3"><a class="reference internal" href="price/proc1.html">Ціни конкурентів</a></li>
-<li class="toctree-l3"><a class="reference internal" href="price/proc2.html">Власники техніки</a></li>
-<li class="toctree-l3"><a class="reference internal" href="price/proc3.html">Джерела інформації</a></li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') ? true : false }"><a :class="{ 'expanded' : expanded }" @click="expanded = !expanded" class="reference internal expandable" href="history.html">Архів<button @click.prevent.stop="expanded = !expanded" type="button"><span class="sr-only"></span><svg fill="currentColor" height="18px" stroke="none" viewbox="0 0 24 24" width="18px" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></button></a><ul x-show="expanded">
+<li class="toctree-l2" x-data="{ expanded: $el.classList.contains('current') ? true : false }"><a :class="{ 'expanded' : expanded }" @click="expanded = !expanded" class="reference internal expandable" href="proc.html">Закупки<button @click.prevent.stop="expanded = !expanded" type="button"><span class="sr-only"></span><svg fill="currentColor" height="18px" stroke="none" viewbox="0 0 24 24" width="18px" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></button></a><ul x-show="expanded">
+<li class="toctree-l3"><a class="reference internal" href="proc/proc1.html">Ціни конкурентів</a></li>
+<li class="toctree-l3"><a class="reference internal" href="proc/proc2.html">Власники техніки</a></li>
+<li class="toctree-l3"><a class="reference internal" href="proc/proc3.html">Джерела інформації</a></li>
 </ul>
 </li>
+</ul>
+</li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') ? true : false }"><a :class="{ 'expanded' : expanded }" @click="expanded = !expanded" class="reference internal expandable" href="cheat.html">Cheetsheets<button @click.prevent.stop="expanded = !expanded" type="button"><span class="sr-only"></span><svg fill="currentColor" height="18px" stroke="none" viewbox="0 0 24 24" width="18px" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></button></a><ul x-show="expanded">
+<li class="toctree-l2" x-data="{ expanded: $el.classList.contains('current') ? true : false }"><a :class="{ 'expanded' : expanded }" @click="expanded = !expanded" class="reference internal expandable" href="cheat/cheat1.html">Docker<button @click.prevent.stop="expanded = !expanded" type="button"><span class="sr-only"></span><svg fill="currentColor" height="18px" stroke="none" viewbox="0 0 24 24" width="18px" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></button></a><ul x-show="expanded">
+<li class="toctree-l3"><a class="reference internal" href="cheat/Postgres/psg1.html">PostgreSQL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cheat/Minio/minio1.html">Инсталяция MinIO для Windows</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cheat/Minio/minio2.html">Использование MinIO и Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cheat/Minio/jupyter_minio.html">Minio and Jupyter</a></li>
+<li class="toctree-l3" x-data="{ expanded: $el.classList.contains('current') ? true : false }"><a :class="{ 'expanded' : expanded }" @click="expanded = !expanded" class="reference internal expandable" href="cheat/FastAPI/fast1.html">FastAPI-VSC-Docker-Redis<button @click.prevent.stop="expanded = !expanded" type="button"><span class="sr-only"></span><svg fill="currentColor" height="18px" stroke="none" viewbox="0 0 24 24" width="18px" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></button></a><ul class="simple" x-show="expanded">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="cheat/Click/clh1.html">ClickHouse on Docker</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="cheat/cheat2.html">Sphinx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cheat/cheat3.html">Python in Excel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cheat/cheat4.html">Pandas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cheat/cheat5.html">Airflow</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="github.html">Hosting on GitHub Pages</a></li>
@@ -162,6 +180,7 @@
 <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
 <script defer="defer" src="_static/theme.js?v=073f68d9"></script>
 <script src="_static/design-tabs.js?v=f930bc37"></script>
+<script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
 <script src="_static/activate_datatables.js"></script>
 </body>

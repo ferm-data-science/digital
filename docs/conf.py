@@ -29,6 +29,7 @@ extensions = [
     "sphinxcontrib.jquery",
     "sphinx_datatables",
     "sphinx_new_tab_link",
+    "nbsphinx",
 ]
 
 myst_enable_extensions = ["colon_fence"]

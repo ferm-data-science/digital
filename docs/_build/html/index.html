@@ -18,7 +18,7 @@
 <link href="_static/awesome-sphinx-design.css?v=15e0fffa" rel="stylesheet" type="text/css"/>
 <link href="search.html" rel="search" title="Search"/>
 <link href="genindex.html" rel="index" title="Index"/>
-<link href="modules.html" rel="next" title="Архів"/>
+<link href="history.html" rel="next" title="Архів"/>
 <script>
     <!-- Prevent Flash of wrong theme -->
       const userPreference = localStorage.getItem('darkMode');
@@ -77,13 +77,31 @@
 </nav><nav class="table w-full min-w-full my-6 lg:my-8">
 <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul>
-<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') ? true : false }"><a :class="{ 'expanded' : expanded }" @click="expanded = !expanded" class="reference internal expandable" href="modules.html">Архів<button @click.prevent.stop="expanded = !expanded" type="button"><span class="sr-only"></span><svg fill="currentColor" height="18px" stroke="none" viewbox="0 0 24 24" width="18px" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></button></a><ul x-show="expanded">
-<li class="toctree-l2" x-data="{ expanded: $el.classList.contains('current') ? true : false }"><a :class="{ 'expanded' : expanded }" @click="expanded = !expanded" class="reference internal expandable" href="price.html">Закупки<button @click.prevent.stop="expanded = !expanded" type="button"><span class="sr-only"></span><svg fill="currentColor" height="18px" stroke="none" viewbox="0 0 24 24" width="18px" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></button></a><ul x-show="expanded">
-<li class="toctree-l3"><a class="reference internal" href="price/proc1.html">Ціни конкурентів</a></li>
-<li class="toctree-l3"><a class="reference internal" href="price/proc2.html">Власники техніки</a></li>
-<li class="toctree-l3"><a class="reference internal" href="price/proc3.html">Джерела інформації</a></li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') ? true : false }"><a :class="{ 'expanded' : expanded }" @click="expanded = !expanded" class="reference internal expandable" href="history.html">Архів<button @click.prevent.stop="expanded = !expanded" type="button"><span class="sr-only"></span><svg fill="currentColor" height="18px" stroke="none" viewbox="0 0 24 24" width="18px" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></button></a><ul x-show="expanded">
+<li class="toctree-l2" x-data="{ expanded: $el.classList.contains('current') ? true : false }"><a :class="{ 'expanded' : expanded }" @click="expanded = !expanded" class="reference internal expandable" href="proc.html">Закупки<button @click.prevent.stop="expanded = !expanded" type="button"><span class="sr-only"></span><svg fill="currentColor" height="18px" stroke="none" viewbox="0 0 24 24" width="18px" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></button></a><ul x-show="expanded">
+<li class="toctree-l3"><a class="reference internal" href="proc/proc1.html">Ціни конкурентів</a></li>
+<li class="toctree-l3"><a class="reference internal" href="proc/proc2.html">Власники техніки</a></li>
+<li class="toctree-l3"><a class="reference internal" href="proc/proc3.html">Джерела інформації</a></li>
 </ul>
 </li>
+</ul>
+</li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') ? true : false }"><a :class="{ 'expanded' : expanded }" @click="expanded = !expanded" class="reference internal expandable" href="cheat.html">Cheetsheets<button @click.prevent.stop="expanded = !expanded" type="button"><span class="sr-only"></span><svg fill="currentColor" height="18px" stroke="none" viewbox="0 0 24 24" width="18px" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></button></a><ul x-show="expanded">
+<li class="toctree-l2" x-data="{ expanded: $el.classList.contains('current') ? true : false }"><a :class="{ 'expanded' : expanded }" @click="expanded = !expanded" class="reference internal expandable" href="cheat/cheat1.html">Docker<button @click.prevent.stop="expanded = !expanded" type="button"><span class="sr-only"></span><svg fill="currentColor" height="18px" stroke="none" viewbox="0 0 24 24" width="18px" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></button></a><ul x-show="expanded">
+<li class="toctree-l3"><a class="reference internal" href="cheat/Postgres/psg1.html">PostgreSQL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cheat/Minio/minio1.html">Инсталяция MinIO для Windows</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cheat/Minio/minio2.html">Использование MinIO и Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cheat/Minio/jupyter_minio.html">Minio and Jupyter</a></li>
+<li class="toctree-l3" x-data="{ expanded: $el.classList.contains('current') ? true : false }"><a :class="{ 'expanded' : expanded }" @click="expanded = !expanded" class="reference internal expandable" href="cheat/FastAPI/fast1.html">FastAPI-VSC-Docker-Redis<button @click.prevent.stop="expanded = !expanded" type="button"><span class="sr-only"></span><svg fill="currentColor" height="18px" stroke="none" viewbox="0 0 24 24" width="18px" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></button></a><ul class="simple" x-show="expanded">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="cheat/Click/clh1.html">ClickHouse on Docker</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="cheat/cheat2.html">Sphinx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cheat/cheat3.html">Python in Excel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cheat/cheat4.html">Pandas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cheat/cheat5.html">Airflow</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="github.html">Hosting on GitHub Pages</a></li>
@@ -147,7 +165,7 @@ SEO</div>
 Закупки</div>
 <p class="sd-card-text">Цінові парсери, власники техніки</p>
 </div>
-<a class="sd-stretched-link sd-hide-link-text reference internal" href="price.html#procurement"><span class="std std-ref">Закупки</span></a></div>
+<a class="sd-stretched-link sd-hide-link-text reference internal" href="proc.html#procurement"><span class="std std-ref">Закупки</span></a></div>
 </div>
 <div class="sd-col sd-d-flex-row sd-p-1 docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
@@ -175,6 +193,15 @@ Data</div>
 <p class="sd-card-text">Розрахунок вартості володіння сховищем даних, алгоритми, інше.</p>
 </div>
 <a class="sd-stretched-link sd-hide-link-text reference external" href="https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Ena45JfsKaVHoPbCvrtKetEBRxEPu0Gdm0h1E9oyEenvHA?e=TRHmlh" rel="noopener noreferrer" target="_blank"><span>https://agrohuborgua.sharepoint.com/:f:/s/msteams_be7208-DataScience/Ena45JfsKaVHoPbCvrtKetEBRxEPu0Gdm0h1E9oyEenvHA?e=TRHmlh</span> <svg aria-hidden="true" height="1.0em" style="display: inline-block; vertical-align: middle; fill: currentColor;" version="1.1" viewbox="0 0 16 16" width="1.0em"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></a></div>
+</div>
+<div class="sd-col sd-d-flex-row sd-p-1 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Документація</div>
+<p class="sd-card-text">Cheat Sheets, інформація та ресурси</p>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference internal" href="cheat.html#cheat-sheets"><span class="std std-ref">Cheetsheets</span></a></div>
 </div>
 </div>
 </div>
@@ -517,11 +544,49 @@ Data</div>
 <div class="toctree-wrapper compound">
 <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="modules.html">Архів</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="price.html">Закупки</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="price/proc1.html">Ціни конкурентів</a></li>
-<li class="toctree-l3"><a class="reference internal" href="price/proc2.html">Власники техніки</a></li>
-<li class="toctree-l3"><a class="reference internal" href="price/proc3.html">Джерела інформації</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html">Архів</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="proc.html">Закупки</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="proc/proc1.html">Ціни конкурентів</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="proc/proc1.html#id2">Приклад даних</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="proc/proc2.html">Власники техніки</a></li>
+<li class="toctree-l3"><a class="reference internal" href="proc/proc3.html">Джерела інформації</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cheat.html">Cheetsheets</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="cheat/cheat1.html">Docker</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="cheat/cheat1.html#postgresql">PostgreSQL</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="cheat/Postgres/psg1.html">PostgreSQL</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cheat/Minio/minio1.html">Инсталяция MinIO для Windows</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cheat/Minio/minio2.html">Использование MinIO и Python</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cheat/Minio/jupyter_minio.html">Minio and Jupyter</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cheat/FastAPI/fast1.html">FastAPI-VSC-Docker-Redis</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cheat/Click/clh1.html">ClickHouse on Docker</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="cheat/cheat2.html">Sphinx</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="cheat/cheat2.html#id1">Установка Sphinx</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="cheat/cheat3.html">Python in Excel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cheat/cheat4.html">Pandas</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="cheat/cheat4.html#pivot-table-pivot-groupby">pivot_table, pivot и groupby</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="cheat/cheat4.html#pivot-table">Pivot Table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cheat/cheat4.html#pivot">Pivot</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cheat/cheat4.html#groupby">GroupBy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cheat/cheat4.html#id1">Краткое содержание</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cheat/cheat4.html#id2">Источник</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="cheat/cheat5.html">Airflow</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="cheat/cheat5.html#data-pipeline">Data Pipeline</a></li>
 </ul>
 </li>
 </ul>
@@ -533,7 +598,7 @@ Data</div>
 </section>
 </div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
 <div class="ml-auto">
-<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="modules.html">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="history.html">
         Архів
         <svg class="ml-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <polyline points="9 18 15 12 9 6"></polyline>
@@ -577,6 +642,9 @@ Data</div>
 <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
 <script defer="defer" src="_static/theme.js?v=073f68d9"></script>
 <script src="_static/design-tabs.js?v=f930bc37"></script>
+<script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+<script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore|document", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+<script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
 <script src="_static/activate_datatables.js"></script>
 </body>
